@@ -42,3 +42,6 @@ python3 measure_scheduler.py --dry-run \
 | **Self-Interaction of Probe Transactions** | Separates probes into two sub-batches: **(A) Shared Writable State** (forces single-thread serialization in the leader scheduler) and **(B) Disjoint Writable State** (tests multi-thread banking race behavior). | Cannot observe private in-memory scheduler drops before block commitment. |
 | **Competition Inside the Block** | Captures full `getBlock` transaction arrays (`total_transactions_in_block`) and measures relative rank both within our probe set and across surrounding non-vote transactions. | Does not decode proprietary off-chain Jito bundle auction state (out of scope per prompt). |
 | **Alpenglow Upgrade Isolation** | All slots (`460,279,900+`) were recorded on **2026-10-23 UTC**, strictly after the **October 21 Alpenglow upgrade**. Zero pre-upgrade slots are mixed. | N/A |
+
+---
+**Solana Payout Wallet (SOL / USDC-SPL):** `HmrmUuXJiQpgYET15VZYcx5wceSRamjVTsewKqWNL3JC`
