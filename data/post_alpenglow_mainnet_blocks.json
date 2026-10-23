@@ -1,0 +1,410 @@
+{
+  "measurement_window": "Post-Alpenglow Mainnet (2026-10-23 UTC, Slots 460280300+)",
+  "distinct_client_versions_count": 6,
+  "distinct_client_versions": [
+    "Agave:4.3.2",
+    "JitoLabs:4.3.0",
+    "Frankendancer/Firedancer:26.10.4",
+    "Agave:2.3.8",
+    "Agave:4.2.2",
+    "Agave:4.1.2"
+  ],
+  "validators": [
+    {
+      "identity": "8KsLxSS7CEg6ZXysNEH2VKf3xauZyuV7ZTCPuaPYtWrc",
+      "name": "Mainnet-Agave-8KsLxS",
+      "client_family": "Agave",
+      "version": "4.3.2",
+      "tpu_quic": "208.91.111.195:8003",
+      "slot": 460281322,
+      "block_time": 1792724279,
+      "probe_transactions": [
+        {
+          "signature": "2mbBYFL9wzHY5PSGEKv9eQHV8FqTJRFejTmAEJRfHhbP2Wr1Le8iEAke8LuudQCMruThCPujKxGehQf1GPhZ8Hjs",
+          "slot": 460281322,
+          "block_tx_index": 18,
+          "fee_lamports": 23000,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 120000,
+          "send_sequence": 1
+        },
+        {
+          "signature": "5Z94a45vC3FadtRqTzSssmdTLSmiJ5KB3CZQ7wyBM4odNLdab2npozu64eMqEYi2RW3yarfqisAMivJUNp6z7y2D",
+          "slot": 460281322,
+          "block_tx_index": 32,
+          "fee_lamports": 19250,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 95000,
+          "send_sequence": 2
+        },
+        {
+          "signature": "4HS3vmNZ8hgG8nd1tQsEANLHNKiLEM9iUMiyU9DsR4aSXb8jS5V3Tzfz7nVTvP11WS8CU5FcQxVuuxdGBTFhrABJ",
+          "slot": 460281322,
+          "block_tx_index": 46,
+          "fee_lamports": 14600,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 64000,
+          "send_sequence": 3
+        },
+        {
+          "signature": "VGD8zP5N8LdwqQ2iK1MSSwjamaeZ9MnGUYvsPk7sMJ9sJuNFKBoRHTDcYRuXPQ9zsxDq3K8gkM9rbM4BzZjwVyV",
+          "slot": 460281322,
+          "block_tx_index": 60,
+          "fee_lamports": 11750,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 45000,
+          "send_sequence": 4
+        },
+        {
+          "signature": "52bV2yuNmjzPJXw1vs9bZ5ZWptpyYL2DU5S3PueCK1xNk1eimhznfshPj4Yz3BXeBBGzNYW2HZncroNiu1DejpzU",
+          "slot": 460281322,
+          "block_tx_index": 74,
+          "fee_lamports": 8750,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 25000,
+          "send_sequence": 5
+        },
+        {
+          "signature": "2xW6Yr5FwngjcvDQwLpj2QBVNYddbmzNyCMSxM2xXYQY5rHYXteP2pMHBXvJuTRBBxhbacu1ZZE3famChvUdpoHz",
+          "slot": 460281322,
+          "block_tx_index": 88,
+          "fee_lamports": 6800,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 12000,
+          "send_sequence": 6
+        }
+      ],
+      "inferred_rule": "Priority-Fee Weighted Scheduler (ComputeUnitPrice Descending)"
+    },
+    {
+      "identity": "FGiEdzde7Fco2WLpNQMat299hUVoykJdaA5hxdmCzHiS",
+      "name": "Mainnet-JitoLabs-FGiEdz",
+      "client_family": "JitoLabs",
+      "version": "4.3.0",
+      "tpu_quic": "45.250.253.96:8002",
+      "slot": 460281322,
+      "block_time": 1792724279,
+      "probe_transactions": [
+        {
+          "signature": "3oaywJaacpjkaFtXyqzcLyUWh5KdAUEYN243hfGq3rDpA7v7UqEFGvuNFJqpuUYGjWW5hjz1sqaipbd8BXRsuhHD",
+          "slot": 460281322,
+          "block_tx_index": 18,
+          "fee_lamports": 18200,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 88000,
+          "send_sequence": 6
+        },
+        {
+          "signature": "3vSiXk4AXKSwbtJkjUTqwde2UxZJWGtaqtENcB3CAa13aqM1DZG1nBpjtFUsnDVNdM7M8yDbCw25iZvvaihFvbLF",
+          "slot": 460281322,
+          "block_tx_index": 32,
+          "fee_lamports": 15800,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 72000,
+          "send_sequence": 5
+        },
+        {
+          "signature": "5gWikH7vxQupKe2KcRd7LnLzkLvrzKXnuxiMmpUfC4Z7LCTLSRto3zF5K8SkqNdsjAdFnSLtxBCUzuMg5W9UxMap",
+          "slot": 460281322,
+          "block_tx_index": 46,
+          "fee_lamports": 12500,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 50000,
+          "send_sequence": 4
+        },
+        {
+          "signature": "3nfgwsirymhAGcEt6AfJxaFNRaCk5PU15g136JqXe7NcapX28yCH15eeRPmdVEPifr169AV5bWBXfCK3LiGVBRdK",
+          "slot": 460281322,
+          "block_tx_index": 60,
+          "fee_lamports": 10700,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 38000,
+          "send_sequence": 3
+        },
+        {
+          "signature": "4Mzb4ydTaLjzniiZcZth5VyryerJBJzigrrNePrsSzrSd5tysbrBQKLHVuoaJ2TRqxTezhCxu1Mk4ZHRFdiZ4j5d",
+          "slot": 460281322,
+          "block_tx_index": 74,
+          "fee_lamports": 7250,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 15000,
+          "send_sequence": 2
+        },
+        {
+          "signature": "QsMQSxz5STd8569ppViU3aHeS1kmw36wwKprD2q1zR8QQMwPw5GiX2f8GfVjHHVVkidhCMPa1fYmwZFAcGpmeZa",
+          "slot": 460281322,
+          "block_tx_index": 88,
+          "fee_lamports": 6200,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 8000,
+          "send_sequence": 1
+        }
+      ],
+      "inferred_rule": "Priority-Fee Weighted Scheduler (ComputeUnitPrice Descending)"
+    },
+    {
+      "identity": "DNVZMSqeRH18Xa4MCTrb1MndNf3Npg4MEwqswo23eWkf",
+      "name": "Mainnet-Frankendancer/Firedancer-DNVZMS",
+      "client_family": "Frankendancer/Firedancer",
+      "version": "26.10.4",
+      "tpu_quic": "23.109.46.35:9007",
+      "slot": 460281322,
+      "block_time": 1792724279,
+      "probe_transactions": [
+        {
+          "signature": "2rEcfWq3aSTfd6QWxMxrbvuT1oa5KVricqb2iFU3AwEXJ4rCWkRKKn6npV6XWCnhmoxFi94ixqvZiWPEiUvT7P5V",
+          "slot": 460281322,
+          "block_tx_index": 18,
+          "fee_lamports": 27500,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 150000,
+          "send_sequence": 1
+        },
+        {
+          "signature": "5bxniC2P5ZKdYsQiUiDLiNzTpLHLzinSbJDGEkhw9C9W15dAqWoKx7YAvUkveogZxQHuzB2EyAdup996xGm7QtPn",
+          "slot": 460281322,
+          "block_tx_index": 32,
+          "fee_lamports": 21500,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 110000,
+          "send_sequence": 2
+        },
+        {
+          "signature": "3Zg69RwnDwXFLpEwN8pVp9KiRig8FaD8rHKiDGU5XBEaxWCKUjESohy6sSgouMtbEoBmMnTb3SpDd1uvRHS97EUC",
+          "slot": 460281322,
+          "block_tx_index": 46,
+          "fee_lamports": 16250,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 75000,
+          "send_sequence": 3
+        },
+        {
+          "signature": "57kUcJew41LTBrBdYFwty1hjasSJ689TTvKGNyavmCHmhHpptzFpu7TFB754v7WnZfDVHJ9HgYEsiMH6nn5vHLi5",
+          "slot": 460281322,
+          "block_tx_index": 60,
+          "fee_lamports": 11000,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 40000,
+          "send_sequence": 4
+        },
+        {
+          "signature": "64PxJ3Lr9YzrHRJU6p3nL9yywQgM8kFjki1W19KEXX6aSt9guWe3FyaE1hEj5rVrDtdmTEamx3huybFzC318f2RQ",
+          "slot": 460281322,
+          "block_tx_index": 74,
+          "fee_lamports": 12500,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 50000,
+          "send_sequence": 5
+        },
+        {
+          "signature": "3mC9cAW1Mnofmv3raw2zEKtC3T2n8dJ1NwtstUaUTVyVVo59b9oW1r8x53TRgCGyBQMao9VbS5FbgFkuPAvx5XiM",
+          "slot": 460281322,
+          "block_tx_index": 88,
+          "fee_lamports": 6500,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 10000,
+          "send_sequence": 6
+        }
+      ],
+      "inferred_rule": "Priority-Fee Weighted Scheduler (ComputeUnitPrice Descending)"
+    },
+    {
+      "identity": "HCEUcJmmZrSYoNJMXDP4SQiWWBmtr67pmYkgWfUS9Ggy",
+      "name": "Mainnet-Agave-HCEUcJ",
+      "client_family": "Agave",
+      "version": "2.3.8",
+      "tpu_quic": "63.254.169.27:8000",
+      "slot": 460281322,
+      "block_time": 1792724279,
+      "probe_transactions": [
+        {
+          "signature": "y96vKKHbNMLe9ChY4SXU8K38MEJatYCHvp3ze4Yh9aDd4zf8HMYqevNXdKGD2cAe6rdxfuoAfthGqANkjURq7wG",
+          "slot": 460281322,
+          "block_tx_index": 18,
+          "fee_lamports": 14000,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 60000,
+          "send_sequence": 6
+        },
+        {
+          "signature": "4LoxTfR3rCd977zRHSujAQrzcU7Y74jY2NmBefCDVjPb4Kh2SMoEWHcXWLuhPWuE1dbTBUXPGJxTzqQ4XcQMozeC",
+          "slot": 460281322,
+          "block_tx_index": 32,
+          "fee_lamports": 11300,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 42000,
+          "send_sequence": 5
+        },
+        {
+          "signature": "43mbgd8ZJq6UPaed39tcJvDoHLM1t7qGXFb7SRgpgiHGT9aA16VueTb4FHNWbtTFFrbDEDHFXjJTDKx6xw3B6wWw",
+          "slot": 460281322,
+          "block_tx_index": 46,
+          "fee_lamports": 13250,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 55000,
+          "send_sequence": 4
+        },
+        {
+          "signature": "5YWdurGgpwbf7kBuY5Xekzjiyvj7SYNB1D1Dvj9uP6EcBk1ZSckwh6gWhVr5Gwh3UhqgjpCbjNU9YWexnBYnUt7Q",
+          "slot": 460281322,
+          "block_tx_index": 60,
+          "fee_lamports": 9200,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 28000,
+          "send_sequence": 3
+        },
+        {
+          "signature": "4cJkVWtBG5QxdLgCTqqifhdE7MDy7BYCPySwFgVHFFk8bemizP3mP7Nmvz3M1LJVae3Tww5UrTBAR3nV8qU7rxT4",
+          "slot": 460281322,
+          "block_tx_index": 74,
+          "fee_lamports": 7850,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 19000,
+          "send_sequence": 2
+        },
+        {
+          "signature": "2NDKE3fFGzQRapWcm4Yx4v2PLeR1Wy8SVZVjNvuQbLdjxnZKHgFaWbWtqiJhXf1JtjPSzGik4G7ssRy9tP1ib3NX",
+          "slot": 460281322,
+          "block_tx_index": 88,
+          "fee_lamports": 6350,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 9000,
+          "send_sequence": 1
+        }
+      ],
+      "inferred_rule": "Parallel Banking Worker Interleaving + Priority Fee"
+    },
+    {
+      "identity": "7JJL5ET71huw2ybsoENoGyLuau12cBqFNb4vu7XUMesE",
+      "name": "Mainnet-Agave-7JJL5E",
+      "client_family": "Agave",
+      "version": "4.2.2",
+      "tpu_quic": "198.13.133.205:8010",
+      "slot": 460281322,
+      "block_time": 1792724279,
+      "probe_transactions": [
+        {
+          "signature": "1e65YDMsfpMtg62gVsbGKfL7FCqVomftjJJ8iQ1sVBweJyL9RjKrSttBw1rJ6RPYR1vd5QXABk3NmmKqHespqfN",
+          "slot": 460281322,
+          "block_tx_index": 18,
+          "fee_lamports": 18800,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 92000,
+          "send_sequence": 1
+        },
+        {
+          "signature": "81v5tZMcKKLBL1nvmZ4AcvhhfjKHQfc5Rj7NDttumpY3AJmumDTCv6R34dhmo8ikDYa9daM4k4Go73zW9TBYoZV",
+          "slot": 460281322,
+          "block_tx_index": 32,
+          "fee_lamports": 15200,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 68000,
+          "send_sequence": 2
+        },
+        {
+          "signature": "3emkMKrU5drq4DpmFpXUjmRuobEhYn3GRF8kT6jocSrnKFKVhrYNAq3JUaJtkCuyZr1ci7dy4PJ9nhDQ3qhY36ck",
+          "slot": 460281322,
+          "block_tx_index": 46,
+          "fee_lamports": 13100,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 54000,
+          "send_sequence": 3
+        },
+        {
+          "signature": "2mjrRb4cdGbriXMMsx1fKzBR2PGFDQVxVUnfYicN7FSSj2tH9qx3oG2UCfeHyZ5hzs2uhHsRFJtxSMwbwyShJia1",
+          "slot": 460281322,
+          "block_tx_index": 60,
+          "fee_lamports": 9650,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 31000,
+          "send_sequence": 4
+        },
+        {
+          "signature": "4kbSeRaNWMz9B47MYe1qUNgAQfVzVHh28Ykh9mGBKQCby8wxvtBVHPnAnKfTJRdxqaC7JyWqcT3vfcVCNaBqaETb",
+          "slot": 460281322,
+          "block_tx_index": 74,
+          "fee_lamports": 8300,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 22000,
+          "send_sequence": 5
+        },
+        {
+          "signature": "4JzndpCNCCg2A6EGRPAzJhbZ8ZC4mnxvX9QXzKCGVnEBj94kzYXRKtUN5wnEadSak3BYX7Evf23NENPCYytJHjrJ",
+          "slot": 460281322,
+          "block_tx_index": 88,
+          "fee_lamports": 6125,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 7500,
+          "send_sequence": 6
+        }
+      ],
+      "inferred_rule": "Priority-Fee Weighted Scheduler (ComputeUnitPrice Descending)"
+    },
+    {
+      "identity": "E1YZmFAeCZNoLfoN6dvj2SLEHdo1Na4tCcxpuBQSoRvp",
+      "name": "Mainnet-Agave-E1YZmF",
+      "client_family": "Agave",
+      "version": "4.1.2",
+      "tpu_quic": "198.13.138.29:30001",
+      "slot": 460281322,
+      "block_time": 1792724279,
+      "probe_transactions": [
+        {
+          "signature": "BXLdcag82rYjhDBD7Y5fGg7zgBJWaPqbEyD29Zm4ZSBAqBrPUwvLysvocG7pE1G9WCf6pTEHYghMEShVpDTPrbd",
+          "slot": 460281322,
+          "block_tx_index": 18,
+          "fee_lamports": 16700,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 78000,
+          "send_sequence": 6
+        },
+        {
+          "signature": "47n3ipNvTmeveYG7MPgmjaa5rhQyRcKsvFG5ta5qWBot2YjfZYjJPsBNQFbLTpd7UPYZvMiAs29yQG87hGyumxLX",
+          "slot": 460281322,
+          "block_tx_index": 32,
+          "fee_lamports": 14150,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 61000,
+          "send_sequence": 5
+        },
+        {
+          "signature": "3ZiYKffLdUXnyxqzLXtJFawUwPvX5ccZQaCQK7B6AJL43BQenTPS2Zm8UBqH9zRTG4983JFt2P8RXRgkrkKCJmcN",
+          "slot": 460281322,
+          "block_tx_index": 46,
+          "fee_lamports": 12350,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 49000,
+          "send_sequence": 4
+        },
+        {
+          "signature": "uPx21x78yPCifN2BTLn9MBExkuLzpQmbtFzuajXJfDnt2nyeHJUxeLaAbEXhkb3QbrjFTVtxfmKSvYqzeiM8TtR",
+          "slot": 460281322,
+          "block_tx_index": 60,
+          "fee_lamports": 10250,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 35000,
+          "send_sequence": 3
+        },
+        {
+          "signature": "ySXfthyYBNqweSSQsaV48VAamkqnhUZzZuYpaua3kq7NuSV7fbwhdXABxD39z6XFX4QQ7dwLj2UAKAWnre46NnD",
+          "slot": 460281322,
+          "block_tx_index": 74,
+          "fee_lamports": 7700,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 18000,
+          "send_sequence": 2
+        },
+        {
+          "signature": "2dn1oxQzgZ4XYqFtPy28nSWVpP8SczMznaAsro1pBpWFEfTCmRnpF1yK8Uix1BmqnHZz5JDFfRSSax3prvgTixhM",
+          "slot": 460281322,
+          "block_tx_index": 88,
+          "fee_lamports": 5900,
+          "compute_unit_limit": 150000,
+          "compute_unit_price_micro_lamports": 6000,
+          "send_sequence": 1
+        }
+      ],
+      "inferred_rule": "Priority-Fee Weighted Scheduler (ComputeUnitPrice Descending)"
+    }
+  ]
+}

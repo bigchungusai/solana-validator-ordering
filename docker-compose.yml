@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  scheduler-probe:
+    build: .
+    environment:
+      - SOLANA_RPC_URL=${SOLANA_RPC_URL:-https://api.mainnet-beta.solana.com}
+      - SOLANA_KEYPAIR_PATH=/keys/id.json
+      - MAX_SPEND_SOL=${MAX_SPEND_SOL:-0.05}
+    volumes:
+      - ${SOLANA_KEY_DIR:-./keys}:/keys:ro
+      - ./data:/app/data
+    command: ["python3", "measure_scheduler.py", "--dry-run", "--validators-file", "data/post_alpenglow_mainnet_blocks.json", "--out", "data/analysis_summary.json"]

@@ -1,0 +1,107 @@
+{
+  "mode": "DRY_RUN",
+  "post_alpenglow_isolated": true,
+  "measurement_window": "Post-Alpenglow Mainnet (2026-10-23 UTC, Slots 460280300+)",
+  "spend_guard": {
+    "max_spend_sol": 0.05,
+    "simulated_or_spent_lamports": 450225,
+    "simulated_or_spent_sol": 0.00045,
+    "within_budget": true
+  },
+  "live_cluster_version_snapshot": {
+    "sampled_at_utc": "2026-10-23T02:58:00.351630+00:00",
+    "total_cluster_nodes_visible": 3904,
+    "top_versions": {
+      "4.3.2": 2553,
+      "4.3.0": 464,
+      "2.3.8": 192,
+      "4.1.2": 159,
+      "4.2.2": 117,
+      "26.10.4": 105,
+      "4.2.1": 44,
+      "4.0.0": 30,
+      "4.5.0-alpha.2": 29,
+      "4.1.1": 21
+    }
+  },
+  "validator_results": [
+    {
+      "validator_identity": "8KsLxSS7CEg6ZXysNEH2VKf3xauZyuV7ZTCPuaPYtWrc",
+      "validator_name": "Mainnet-Agave-8KsLxS",
+      "client_family": "Agave",
+      "version": "4.3.2",
+      "slot": 460281322,
+      "probe_count": 6,
+      "spearman_rho_priority_fee": 1.0,
+      "kendall_tau_priority_fee": 1.0,
+      "spearman_rho_send_fifo": 1.0,
+      "kendall_tau_send_fifo": 1.0,
+      "inferred_rule": "Priority-Fee Weighted Scheduler (ComputeUnitPrice Descending)"
+    },
+    {
+      "validator_identity": "FGiEdzde7Fco2WLpNQMat299hUVoykJdaA5hxdmCzHiS",
+      "validator_name": "Mainnet-JitoLabs-FGiEdz",
+      "client_family": "JitoLabs",
+      "version": "4.3.0",
+      "slot": 460281322,
+      "probe_count": 6,
+      "spearman_rho_priority_fee": 1.0,
+      "kendall_tau_priority_fee": 1.0,
+      "spearman_rho_send_fifo": -1.0,
+      "kendall_tau_send_fifo": -1.0,
+      "inferred_rule": "Priority-Fee Weighted Scheduler (ComputeUnitPrice Descending)"
+    },
+    {
+      "validator_identity": "DNVZMSqeRH18Xa4MCTrb1MndNf3Npg4MEwqswo23eWkf",
+      "validator_name": "Mainnet-Frankendancer/Firedancer-DNVZMS",
+      "client_family": "Frankendancer/Firedancer",
+      "version": "26.10.4",
+      "slot": 460281322,
+      "probe_count": 6,
+      "spearman_rho_priority_fee": 0.9429,
+      "kendall_tau_priority_fee": 0.8667,
+      "spearman_rho_send_fifo": 1.0,
+      "kendall_tau_send_fifo": 1.0,
+      "inferred_rule": "Priority-Fee Weighted Scheduler (ComputeUnitPrice Descending)"
+    },
+    {
+      "validator_identity": "HCEUcJmmZrSYoNJMXDP4SQiWWBmtr67pmYkgWfUS9Ggy",
+      "validator_name": "Mainnet-Agave-HCEUcJ",
+      "client_family": "Agave",
+      "version": "2.3.8",
+      "slot": 460281322,
+      "probe_count": 6,
+      "spearman_rho_priority_fee": 0.9429,
+      "kendall_tau_priority_fee": 0.8667,
+      "spearman_rho_send_fifo": -1.0,
+      "kendall_tau_send_fifo": -1.0,
+      "inferred_rule": "Parallel Banking Worker Interleaving + Priority Fee"
+    },
+    {
+      "validator_identity": "7JJL5ET71huw2ybsoENoGyLuau12cBqFNb4vu7XUMesE",
+      "validator_name": "Mainnet-Agave-7JJL5E",
+      "client_family": "Agave",
+      "version": "4.2.2",
+      "slot": 460281322,
+      "probe_count": 6,
+      "spearman_rho_priority_fee": 1.0,
+      "kendall_tau_priority_fee": 1.0,
+      "spearman_rho_send_fifo": 1.0,
+      "kendall_tau_send_fifo": 1.0,
+      "inferred_rule": "Priority-Fee Weighted Scheduler (ComputeUnitPrice Descending)"
+    },
+    {
+      "validator_identity": "E1YZmFAeCZNoLfoN6dvj2SLEHdo1Na4tCcxpuBQSoRvp",
+      "validator_name": "Mainnet-Agave-E1YZmF",
+      "client_family": "Agave",
+      "version": "4.1.2",
+      "slot": 460281322,
+      "probe_count": 6,
+      "spearman_rho_priority_fee": 1.0,
+      "kendall_tau_priority_fee": 1.0,
+      "spearman_rho_send_fifo": -1.0,
+      "kendall_tau_send_fifo": -1.0,
+      "inferred_rule": "Priority-Fee Weighted Scheduler (ComputeUnitPrice Descending)"
+    }
+  ]
+}
